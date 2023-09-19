@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 body {
@@ -44,13 +44,13 @@ body {
 }
 
 .front-page p {
-  font-size: 10.5rem;
+  font-size: 17rem;
   text-align: center;
   line-height: 100%;
   color: #ffffff;
   font-weight: 600;
   margin-bottom: 15rem;
-  margin-top: 9.5rem;
+  margin-top: 6.5rem;
   transition: opacity 0.1s;
 }
 
@@ -215,7 +215,7 @@ body {
   width: 50%;
   z-index: 0;
   bottom: 12rem;
-  filter: blur(6px);
+  filter: blur(7px);
   opacity: 100%;
 }
 
@@ -225,7 +225,7 @@ body {
   width: 45%;
   z-index: 10;
   bottom: 10rem;
-  filter: blur(6px);
+  filter: blur(7px);
   opacity: 100%;
 }
 
@@ -235,7 +235,7 @@ body {
   width: 50%;
   z-index: 0;
   bottom: 8rem;
-  filter: blur(6px);
+  filter: blur(7px);
   opacity: 100%;
 }
 
@@ -245,7 +245,7 @@ body {
   width: 50%;
   z-index: 0;
   bottom: 12rem;
-  filter: blur(6px);
+  filter: blur(7px);
   opacity: 100%;
 }
 
@@ -253,8 +253,7 @@ body {
   width: 100%;
   height: 180dvh;
   background-size: cover;
-  background-color: #9DB5A2;
-  background-size: cover;
+  background-color: #a2b098;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -274,7 +273,18 @@ body {
 
 .second-page .intro-text {
   color: white;
-  font-size: 4rem;
-  text-align: center;
+  width: 100%;
+  font-size: 13rem;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  height: 100dvh;
+  font-weight: 600;
+  z-index: 10;
+  margin-left: 1rem;
+  line-height: 10.5rem;
+}
 
+.gab {
+  width: 40%;
 }
