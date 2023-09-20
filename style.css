@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 body {
@@ -52,6 +52,7 @@ body {
   margin-bottom: 15rem;
   margin-top: 6.5rem;
   transition: opacity 0.1s;
+  font-family: 'Bebas Neue', sans-serif;
 }
 
 .wings {
@@ -257,7 +258,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .second-page::after {
@@ -270,6 +271,12 @@ body {
   height: 100px;
   background: linear-gradient(to top, #332935, transparent);
   visibility: hidden;
+}
+
+.row-objects {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -10rem;
 }
 
 .second-page .intro-text {
@@ -286,6 +293,10 @@ body {
   margin-top: 2rem;
 }
 
+.intro-text p {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
 .gab-profile {
   width: 100%;
   display: flex;
@@ -297,6 +308,20 @@ body {
 }
 
 .gab-profile .gab {
-  width: 80%;
+  width: 85%;
   opacity: 95%;
+}
+
+.paragraph-statement {
+  width: 100%;
+  height: 0;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+.paragraph-statement p {
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 2rem;
 }
