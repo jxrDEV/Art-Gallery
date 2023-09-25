@@ -5,5 +5,5 @@ window.onscroll = function () {
   const scrollPosition = window.scrollY;
   const distanceFromBottom = windowHeight - scrollPosition;
   const opacity = distanceFromBottom / windowHeight;
-  textElement.style.opacity = Math.max(0.2, opacity);
+  textElement.style.opacity = Math.max(0, opacity);
 }
