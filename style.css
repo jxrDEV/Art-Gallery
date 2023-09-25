@@ -69,6 +69,7 @@ body {
   bottom: 18rem;
   z-index: -1;
   animation: vibrate-1 2.9s linear infinite both;
+  opacity: 80%;
 }
 
 .spiral {
@@ -78,16 +79,7 @@ body {
   bottom: 35rem;
   z-index: -1;
   animation: vibrate-1 2.5s linear infinite both;
-}
-
-.cloud {
-  position: absolute;
-  left: 17rem;
-  width: 8%;
-  bottom: 50rem;
-  z-index: -1;
-  opacity: 90%;
-  animation: vibrate-2 2.5s linear infinite both;
+  opacity: 80%;
 }
 
 .smiley {
@@ -97,6 +89,7 @@ body {
   bottom: 25rem;
   z-index: -1;
   animation: vibrate-2 2.6s linear infinite both;
+  opacity: 80%;
 }
 
 .heart-3 {
@@ -106,6 +99,7 @@ body {
   bottom: 22.5rem;
   z-index: -1;
   animation: vibrate-2 2.8s linear infinite both;
+  opacity: 80%;
 }
 
 .star {
@@ -115,6 +109,7 @@ body {
   bottom: 37rem;
   z-index: -1;
   animation: vibrate-2 2.5s linear infinite both;
+  opacity: 80%;
 }
 
 .heart-2 {
@@ -124,6 +119,7 @@ body {
   bottom: 53rem;
   z-index: -1;
   animation: vibrate-1 3s linear infinite both;
+  opacity: 80%;
 }
 
 @keyframes tilt-shaking {
@@ -214,7 +210,7 @@ body {
   position: absolute;
   left: -10rem;
   width: 50%;
-  z-index: 0;
+  z-index: 1;
   bottom: 12rem;
   filter: blur(7px);
   opacity: 100%;
@@ -234,7 +230,7 @@ body {
   position: absolute;
   left: 33rem;
   width: 50%;
-  z-index: 0;
+  z-index: 1;
   bottom: 8rem;
   filter: blur(7px);
   opacity: 100%;
@@ -244,7 +240,7 @@ body {
   position: absolute;
   left: 60rem;
   width: 50%;
-  z-index: 0;
+  z-index: 1;
   bottom: 12rem;
   filter: blur(7px);
   opacity: 100%;
@@ -252,13 +248,14 @@ body {
 
 .second-page {
   width: 100%;
-  height: 180dvh;
+  height: 135dvh;
   background-size: cover;
-  background-color: #a2b098;
+  background-image: url(images/green.png);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
 }
 
 .second-page::after {
@@ -276,7 +273,7 @@ body {
 .row-objects {
   display: flex;
   flex-direction: row;
-  margin-bottom: -10rem;
+  margin-top: 8.5rem;
 }
 
 .second-page .intro-text {
@@ -286,9 +283,8 @@ body {
   display: flex;
   align-items: start;
   justify-content: start;
-  height: 100dvh;
   font-weight: 600;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
   line-height: 10.5rem;
   margin-top: 2rem;
 }
@@ -302,7 +298,6 @@ body {
   display: flex;
   align-items: start;
   justify-content: center;
-  height: 100dvh;
   margin-left: 5rem;
   margin-bottom: 3rem;
 }
@@ -312,16 +307,89 @@ body {
   opacity: 95%;
 }
 
+.eye {
+  position: absolute;
+  z-index: 1;
+  width: 4%;
+  top: 25rem;
+  right: 20.5rem;
+  rotate: -12deg;
+  animation: tilt-shaking 2s infinite;
+}
+
+.mouth-regular {
+  position: absolute;
+  width: 7%;
+  z-index: 2;
+  top: 38rem;
+  right: 8rem;
+}
+
+.mouth-distort-1 {
+  position: absolute;
+  width: 7%;
+  z-index: 1;
+  top: 18rem;
+  right: 33rem;
+  rotate: -10deg;
+}
+
+.mouth-distort-2 {
+  position: absolute;
+  width: 8%;
+  z-index: 1;
+  top: 38rem;
+  right: 12rem;
+  rotate: -15deg;
+}
+
+.mouth-distort-3 {
+  position: absolute;
+  width: 8%;
+  z-index: 1;
+  top: 34rem;
+  right: 4rem;
+  rotate: 15deg;
+}
+
 .paragraph-statement {
-  width: 100%;
-  height: 0;
   display: flex;
   align-items: start;
   justify-content: start;
+  margin-left: 2.7rem;
+}
+
+.text-column-objects {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  margin-top: -3rem;
+}
+
+.paragraph-statement .text-gab {
+  color: #ebde92;
 }
 
 .paragraph-statement p {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: white;
-  margin-left: 2rem;
+  font-weight: 600;
+}
+
+.text-showcase {
+  margin-left: 2.7rem;
+  margin-top: 2rem;
+}
+
+.text-showcase p {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 600;
+}
+
+.third-page {
+  width: 100%;
+  height: 100dvh;
+  background-color: #55a6a7;
 }
