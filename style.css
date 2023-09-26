@@ -401,6 +401,27 @@ body {
   font-family: 'Bebas Neue', sans-serif;
 }
 
+.gwen-image {
+  position: fixed;
+  right: -.5rem;
+  bottom: -2.5rem;
+  background-attachment: fixed;
+  width: 18%;
+  rotate: -10deg;
+  opacity: 95%;
+}
+
+.miles-image {
+  position: fixed;
+  top: -2rem;
+  bottom: 0rem;
+  background-attachment: fixed;
+  width: 15%;
+  rotate: 10deg;
+  opacity: 95%;
+  z-index: -1;
+}
+
 .video-section {
   width: 100%;
   z-index: -10;
