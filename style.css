@@ -273,7 +273,7 @@ body {
 .row-objects {
   display: flex;
   flex-direction: row;
-  margin-top: 2rem;
+  margin-top: 6.5rem;
 }
 
 .second-page .intro-text {
@@ -314,7 +314,7 @@ body {
   top: 25rem;
   right: 20.5rem;
   rotate: -12deg;
-  animation: tilt-shaking 2s infinite;
+  animation: tilt-shaking 1.5s infinite;
 }
 
 .mouth-regular {
@@ -357,6 +357,7 @@ body {
   align-items: start;
   justify-content: start;
   margin-left: 2.7rem;
+  flex-direction: column;
 }
 
 .text-column-objects {
@@ -364,7 +365,7 @@ body {
   flex-direction: column;
   align-items: start;
   width: 100%;
-  margin-top: -3rem;
+  margin-top: -4rem;
 }
 
 .paragraph-statement .text-gab {
@@ -375,6 +376,7 @@ body {
   font-size: 1.1rem;
   color: white;
   font-weight: 600;
+  margin-bottom: 1.8rem;
 }
 
 .text-showcase {
@@ -413,10 +415,10 @@ body {
 
 .miles-image {
   position: fixed;
-  top: -2rem;
-  bottom: 0rem;
+  top: -2.5rem;
+  left: -.7rem;
   background-attachment: fixed;
-  width: 15%;
+  width: 17%;
   rotate: 10deg;
   opacity: 95%;
   z-index: -1;
@@ -443,4 +445,5 @@ body {
   height: 130dvh;
   background-image: url(images/blue-green.png);
   background-size: cover;
+  place-items: center;
 }
