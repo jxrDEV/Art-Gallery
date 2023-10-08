@@ -445,5 +445,35 @@ body {
   height: 130dvh;
   background-image: url(images/blue-green.png);
   background-size: cover;
-  place-items: center;
+
+}
+
+.container {
+  max-width: 1224px;
+  height: 90%;
+  margin: auto;
+  padding: 40px;
+}
+
+.art-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 15rem;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.art img {
+  width: 100%;
+  height: 100%;
+}
+
+.art .art-5,
+.art-3,
+.art-2 {
+  rotate: -90deg;
 }
