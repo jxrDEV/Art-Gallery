@@ -1,0 +1,59 @@
+.text-showcase {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-attachment: fixed;
+  display: flex;
+  width: 100%;
+  margin-bottom: 18rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-showcase p {
+  font-size: 3.7rem;
+  color: white;
+  font-weight: 800;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.color-text {
+  color: #ebde92;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.gwen-image {
+  position: fixed;
+  right: -.5rem;
+  bottom: -2.5rem;
+  background-attachment: fixed;
+  width: 18%;
+  rotate: -10deg;
+  opacity: 95%;
+}
+
+.miles-image {
+  position: fixed;
+  top: -2.5rem;
+  left: -.7rem;
+  background-attachment: fixed;
+  width: 17%;
+  rotate: 10deg;
+  opacity: 95%;
+  z-index: -1;
+}
+
+.video-section {
+  width: 100%;
+  z-index: -10;
+  position: relative;
+}
+
+.back-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -10;
+  border: none;
+  background-attachment: fixed;
+}

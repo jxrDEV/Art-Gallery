@@ -1,0 +1,132 @@
+.second-page {
+  width: 100%;
+  height: 135dvh;
+  background-size: cover;
+  background-image: url(images/green.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.second-page::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 9rem;
+  z-index: 20;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to top, #332935, transparent);
+  visibility: hidden;
+}
+
+.row-objects {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6.5rem;
+}
+
+.second-page .intro-text {
+  color: white;
+  width: 100%;
+  font-size: 13rem;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  font-weight: 600;
+  margin-left: 2rem;
+  line-height: 10.5rem;
+  margin-top: 2rem;
+}
+
+.intro-text p {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.gab-profile {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin-left: 5rem;
+  margin-bottom: 3rem;
+}
+
+.gab-profile .gab {
+  width: 85%;
+  opacity: 95%;
+}
+
+.eye {
+  position: absolute;
+  z-index: 1;
+  width: 4%;
+  top: 25rem;
+  right: 20.5rem;
+  rotate: -12deg;
+  animation: tilt-shaking 1.5s infinite;
+}
+
+.mouth-regular {
+  position: absolute;
+  width: 7%;
+  z-index: 2;
+  top: 38rem;
+  right: 8rem;
+}
+
+.mouth-distort-1 {
+  position: absolute;
+  width: 7%;
+  z-index: 1;
+  top: 18rem;
+  right: 33rem;
+  rotate: -10deg;
+}
+
+.mouth-distort-2 {
+  position: absolute;
+  width: 8%;
+  z-index: 1;
+  top: 38rem;
+  right: 12rem;
+  rotate: -15deg;
+}
+
+.mouth-distort-3 {
+  position: absolute;
+  width: 8%;
+  z-index: 1;
+  top: 34rem;
+  right: 4rem;
+  rotate: 15deg;
+}
+
+.paragraph-statement {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  margin-left: 2.7rem;
+  flex-direction: column;
+}
+
+.text-column-objects {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  margin-top: -4rem;
+}
+
+.paragraph-statement .text-gab {
+  color: #ebde92;
+}
+
+.paragraph-statement p {
+  font-size: 1.1rem;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 1.8rem;
+}
