@@ -30,5 +30,23 @@ let arts = [
   }
 ];
 
+const modal = document.querySelector('.modal');
+const openModal = document.querySelector('.art-1');
 
+const artGallery = document.querySelectorAll('.column .art' );
+let previewBox = document.querySelector('.preview-box');
+let previewImg = previewBox.querySelector(".img-box img");
 
+window.onload = () => {
+  for (let i = 0; i < artGallery.length; i++) {
+    artGallery[i].onclick = () => {
+      function preview() {
+        let selectedImgUrl = artGallery[i].querySelector('img').src;
+        previewImg.src = selectedImgUrl;
+        console.log(selectedImgUrl);
+        modal.showModal();
+      }
+      preview();
+    }
+  }
+}
