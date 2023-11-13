@@ -31,12 +31,23 @@ let arts = [
 ];
 
 const modal = document.querySelector('.modal');
-const openModal = document.querySelector('.art-1');
+const dialogElement = document.querySelector('dialog');
 
 const artGallery = document.querySelectorAll('.column .art' );
 let previewBox = document.querySelector('.preview-box');
 let previewImg = previewBox.querySelector(".img-box img");
 
+dialogElement.addEventListener('click', (event) => {
+  if (event.target == dialogElement) {
+    dialogElement.close();
+  }
+  function haveflow () {
+    window.removeEventListener("wheel", preventDefault);
+  }
+  haveflow();
+})
+
+var preventDefault;
 window.onload = () => {
   for (let i = 0; i < artGallery.length; i++) {
     artGallery[i].onclick = () => {
@@ -46,7 +57,16 @@ window.onload = () => {
         console.log(selectedImgUrl);
         modal.showModal();
       }
+
+      function noflow () {
+        preventDefault = function (event) {
+          event.preventDefault();
+        }
+        window.addEventListener("wheel", preventDefault, { passive: false });
+      }
+      
       preview();
+      noflow();
     }
   }
 }
