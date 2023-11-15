@@ -1,10 +1,9 @@
 .text-showcase {
   position: fixed;
-  right: 0;
-  bottom: 0;
+  bottom: 25rem;
   width: 100%;
-  margin-bottom: 18rem;
   text-align: center;
+  height: 100px;
 }
 
 .text-showcase p {
@@ -52,5 +51,7 @@
   bottom: 0;
   z-index: -10;
   border: none;
-  background-attachment: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
