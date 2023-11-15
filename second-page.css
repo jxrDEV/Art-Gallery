@@ -61,14 +61,14 @@
 }
 
 .gab-profile .gab {
-  width: 85%;
+  max-width: 85%;
   opacity: 95%;
 }
 
 .eye {
   position: absolute;
   z-index: 1;
-  width: 4%;
+  max-width: 4rem;
   top: 25rem;
   right: 20.5rem;
   rotate: -12deg;
@@ -77,7 +77,7 @@
 
 .mouth-regular {
   position: absolute;
-  width: 7%;
+  max-width: 6.5rem;
   z-index: 2;
   top: 38rem;
   right: 8rem;
@@ -85,8 +85,8 @@
 
 .mouth-distort-1 {
   position: absolute;
-  width: 7%;
   z-index: 1;
+  max-width: 6.5rem;
   top: 18rem;
   right: 33rem;
   rotate: -10deg;
@@ -94,7 +94,7 @@
 
 .mouth-distort-2 {
   position: absolute;
-  width: 8%;
+  max-width: 7.5rem;
   z-index: 1;
   top: 38rem;
   right: 12rem;
