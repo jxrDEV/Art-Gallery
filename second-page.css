@@ -39,7 +39,7 @@
 }
 
 .gab {
-  width: 100%;
+  width: max(100%, 30rem);
   opacity: 95%;
   position: relative;
 }

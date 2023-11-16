@@ -8,7 +8,6 @@
 body {
   width: 100%;
   height: 200dvh;
-  position: relative;
 }
 
 .front-page {
@@ -21,16 +20,15 @@ body {
 }
 
 .front-page .sky-background {
-  position: relative;
   z-index: -2;
   width: 100%;
-  height: 130vh;
+  height: 140vh;
   object-fit: cover;
 }
 
 .front-page .gab-picture {
   position: absolute;
-  width: min(100%, 1500px);
+  width: max(32%, 22rem);
   bottom: 0;
 }
 
@@ -53,8 +51,9 @@ body {
 
 .wings {
   position: absolute;
-  bottom: -17.5rem;
-  width: 60%;
+  bottom: -16rem;
+  min-width: 61%;
+  width: max-content;
   animation: tilt-shaking 2s infinite;
 }
 
@@ -202,17 +201,10 @@ body {
   opacity: 70%;
 }
 
-.clouds-divider {
-  max-width: 100%;
-}
-
 .clouds{
   position: absolute;
   filter: blur(6px);
-  max-width: 100rem;
-  width: 100%;
-  bottom: -40rem;
-  left: 0;
-  z-index: 5;
+  width: max(99.9%, 1200px);
+  bottom: -36rem;
 }
 
