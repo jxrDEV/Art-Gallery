@@ -1,13 +1,14 @@
 .text-showcase {
   position: fixed;
-  bottom: 25rem;
+  bottom: 28rem;
   width: 100%;
   text-align: center;
   height: 100px;
 }
 
 .text-showcase p {
-  font-size: 3.7rem;
+  padding: max(5vh, 1rem);
+  font-size: clamp(1rem, 5vw + 1.2rem, 3.7rem);
   color: white;
   font-weight: 800;
   font-family: 'Bebas Neue', sans-serif;
