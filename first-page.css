@@ -202,11 +202,17 @@ body {
   opacity: 70%;
 }
 
-.clouds img{
-  position: absolute;
+.clouds-divider {
   max-width: 100%;
-  bottom: -4.5rem;
+}
+
+.clouds{
+  position: absolute;
   filter: blur(6px);
-  z-index: 1;
+  max-width: 100rem;
+  width: 100%;
+  bottom: -40rem;
+  left: 0;
+  z-index: 5;
 }
 

@@ -1,11 +1,16 @@
 .second-page {
   width: 100%;
   height: 140dvh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   position: relative;
+}
+
+.second-page-container {
+  width: 100%;
+  height: 140dvh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .first-green-background {
@@ -27,87 +32,41 @@
   visibility: hidden;
 }
 
-.row-objects {
-  display: flex;
-  flex-direction: row;
-  margin-top: 12.5rem;
-}
-
-.second-page .intro-text {
-  color: white;
+.pic-objects {
   width: 100%;
-  font-size: 13rem;
-  display: flex;
-  align-items: start;
-  justify-content: start;
-  font-weight: 600;
-  margin-left: 2rem;
-  line-height: 10.5rem;
-  margin-top: 2rem;
+
 }
 
-.intro-text p {
-  font-family: 'Bebas Neue', sans-serif;
-}
-
-.gab-profile {
-  display: flex;
-  align-items: start;
-  justify-content: center;
-  margin-left: 5rem;
-  margin-bottom: 3rem;
-  width: 100%;
-  height: 100%;
-}
-
-.gab-profile .gab {
-  max-width: 85%;
+.gab {
+  width: min(100%, 1000px);
   opacity: 95%;
+  position: relative;
 }
 
 .eye {
   position: absolute;
-  z-index: 1;
-  max-width: 4rem;
-  top: 25rem;
-  right: 20.5rem;
-  rotate: -12deg;
-  animation: tilt-shaking 1.5s infinite;
+  width: 20px;
 }
 
 .mouth-regular {
   position: absolute;
-  max-width: 6.5rem;
-  z-index: 2;
-  top: 38rem;
-  right: 8rem;
+  width: 20%;
+  
 }
 
 .mouth-distort-1 {
   position: absolute;
-  z-index: 1;
-  max-width: 6.5rem;
-  top: 18rem;
-  right: 33rem;
-  rotate: -10deg;
+  width: 10px;
 }
 
 .mouth-distort-2 {
   position: absolute;
-  max-width: 7.5rem;
-  z-index: 1;
-  top: 38rem;
-  right: 12rem;
-  rotate: -15deg;
+  width: 10px;
 }
 
 .mouth-distort-3 {
   position: absolute;
-  width: 8%;
-  z-index: 1;
-  top: 34rem;
-  right: 4rem;
-  rotate: 15deg;
+  width: 10px;
 }
 
 .paragraph-statement {
@@ -118,11 +77,24 @@
   flex-direction: column;
 }
 
+.second-page .intro-text {
+  color: white;
+  font-weight: 600;
+  line-height: 0.9;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.intro-text p {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: clamp(5rem, 10vw + 6rem, 13rem);
+}
+
 .text-column-objects {
   display: flex;
   flex-direction: column;
   align-items: start;
-  width: 100%;
+  width: min(100%, 1500px);
   margin-top: -4rem;
 }
 
