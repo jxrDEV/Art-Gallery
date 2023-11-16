@@ -30,7 +30,7 @@ body {
 
 .front-page .gab-picture {
   position: absolute;
-  max-width: 31rem;
+  width: min(100%, 1500px);
   bottom: 0;
 }
 
