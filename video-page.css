@@ -5,7 +5,7 @@
   text-align: center;
   height: 100px;
 }
-
+  
 .text-showcase p {
   padding: max(5vh, 1rem);
   font-size: clamp(1rem, 5vw + 1.2rem, 3.7rem);
