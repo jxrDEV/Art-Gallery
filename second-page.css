@@ -1,12 +1,12 @@
 .second-page {
   width: 100%;
-  height: 140vh;
+  height: 125vh;
   position: relative;
 }
 
 .second-page-container {
   max-width: 100%;
-  height: 140vh;
+  height: 125vh;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -18,7 +18,7 @@
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: 140vh;
+  height: 125vh;
   object-fit: cover;
 }
 

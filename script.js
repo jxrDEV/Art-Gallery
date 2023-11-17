@@ -11,7 +11,7 @@ window.onscroll = function () {
 const modal = document.querySelector('.modal');
 const dialogElement = document.querySelector('dialog');
 
-const artGallery = document.querySelectorAll('.column .art' );
+const artGallery = document.querySelectorAll('.art-container .art' );
 let previewBox = document.querySelector('.preview-box');
 let previewImg = previewBox.querySelector(".img-box img");
 let previewTitle = previewBox.querySelector(".art-title p");
