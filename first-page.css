@@ -24,11 +24,12 @@ body {
   width: 100%;
   height: 140vh;
   object-fit: cover;
+  position: relative;
 }
 
 .front-page .gab-picture {
   position: absolute;
-  width: max(32%, 22rem);
+  width: max(30%, 20rem);
   bottom: 0;
 }
 
@@ -55,7 +56,7 @@ body {
 .wings {
   position: absolute;
   bottom: -16rem;
-  min-width: 61%;
+  min-width: 57%;
   width: max-content;
   animation: tilt-shaking 2s infinite;
 }
@@ -206,8 +207,10 @@ body {
 
 .clouds{
   position: absolute;
+  margin-bottom: -72rem;
+  object-fit: cover;
+  width: 100%;
+  max-width: 100rem;
   filter: blur(6px);
-  width: max(99.9%, 1200px);
-  bottom: -36rem;
 }
 

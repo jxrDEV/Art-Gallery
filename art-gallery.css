@@ -1,31 +1,28 @@
 .invisible-page {
   width: 100%;
-  height: 75dvh;
+  height: 90vh;
+}
+
+.rip-page {
+  width: 100%;
+  background-image: url(images/green-background-rip.webp);
+  height: 15vh;
+  margin-bottom: -.5rem;
 }
 
 .third-page {
   width: 100%;
-  height: 220vh;
-}
-
-.green-background {
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 220vh;
-  object-fit: cover;
+  max-height: 195vh;
+  background-color: #a0ae96;
 }
 
 .container {
-  width: 100%;
-  height: 220dvh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .container .art-container {
-  margin-top: 10rem;
   columns: 3 350px;
   gap: 1rem;
   padding: 2rem;
@@ -36,6 +33,7 @@
   width: 90%;
   border: .8rem solid white;
   cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .art img:hover {
@@ -50,14 +48,13 @@
 }
 
 .art-title {
-  margin-top: 1.2rem;
-  margin-bottom: -1.5rem;
+  margin-top: 1rem;
+  margin-bottom: -1rem;
 }
 
 .art-title p {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 800;
-
 }
 
 .modal {
@@ -65,8 +62,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
-  padding: 2.8em;
+  padding: 2.5em;
   max-width: 85ch;
   border: 0;
   max-height: 90vh; 
@@ -78,7 +74,7 @@
 }
 
 .modal::backdrop {
-  background: rgba(255, 255, 255, 0.286);
+  background: rgba(255, 255, 255, 0.351);
 }
 
 .line-divider img{
