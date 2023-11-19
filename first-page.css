@@ -43,22 +43,14 @@ body {
 .page-header {
   padding-left: max(2vh, 1rem);
   padding-right: max(2vh, 1rem);
-  font-size: clamp(5rem, 10vw + 8rem, 17rem);
+  font-size: clamp(5rem, 10vw + 8rem, 16.5rem);
   line-height: .9;
   text-align: center;
   color: #ffffff;
   font-weight: 600;
-  margin-top: 6.5rem;
+  margin-top: 4.5rem;
   transition: opacity 0.1s;
   font-family: 'Bebas Neue', sans-serif;
-}
-
-.wings {
-  position: absolute;
-  bottom: -16rem;
-  min-width: 57%;
-  width: max-content;
-  animation: tilt-shaking 2s infinite;
 }
 
 .heart-1 {
